@@ -141,7 +141,7 @@
 <meta property="og:image" content="https://walnut8569.github.io/images/DownloadNodeJs.png">
 <meta property="og:image" content="https://walnut8569.github.io/images/DownloadGit.png">
 <meta property="article:published_time" content="2024-11-07T11:46:08.000Z">
-<meta property="article:modified_time" content="2025-08-03T09:12:01.293Z">
+<meta property="article:modified_time" content="2025-08-03T09:37:15.908Z">
 <meta property="article:author" content="WalNut">
 <meta property="article:tag" content="Tutorial">
 <meta name="twitter:card" content="summary">
@@ -769,8 +769,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2025-08-03 17:12:01</span>
-            <span class="mobile">2025-08-03 17:12:01</span>
+            <span class="desktop">2025-08-03 17:37:15</span>
+            <span class="mobile">2025-08-03 17:37:15</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -792,12 +792,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1k Words</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.1k Words</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>3 Mins</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>4 Mins</span>
         </span>
     
     
@@ -828,7 +828,7 @@
 <li>把網頁部署到 Github Pages</li>
 </ul>
 <hr>
-<h4 id="什麼是-Hexo？"><a href="#什麼是-Hexo？" class="headerlink" title="什麼是 Hexo？"></a>什麼是 Hexo？</h4><p>Hexo 是一個快速、簡單且高度可擴展的靜態網站生成器，主要用於 blog 和網站的創建<br>它基於 Node.js 開發，並使用 Markdown 格式來撰寫文章，且可以通過各種插件來擴展功能，支援自定義佈局和主題</p>
+<h3 id="什麼是-Hexo？"><a href="#什麼是-Hexo？" class="headerlink" title="什麼是 Hexo？"></a>什麼是 Hexo？</h3><p>Hexo 是一個快速、簡單且高度可擴展的靜態網站生成器，主要用於 blog 和網站的創建<br>它基於 Node.js 開發，並使用 Markdown 格式來撰寫文章，且可以通過各種插件來擴展功能，支援自定義佈局和主題</p>
 <h6 id="主要特點包括："><a href="#主要特點包括：" class="headerlink" title="主要特點包括："></a>主要特點包括：</h6><ol>
 <li><p><strong>靜態網站生成</strong>：Hexo 將 Markdown 檔案轉換為靜態 HTML 頁面，這樣生成的網站速度較快，且容易部署在各種靜態網站托管平台上，如 GitHub Pages</p>
 </li>
@@ -841,7 +841,7 @@
 </ol>
 <p><del>全都是問 ChatGPT 的不要懷疑</del></p>
 <hr>
-<h4 id="第一步-前置作業"><a href="#第一步-前置作業" class="headerlink" title="第一步 : 前置作業"></a>第一步 : 前置作業</h4><p>在開始安裝 Hexo 之前，必須先在電腦安裝以下工具 ：</p>
+<h3 id="第一步-前置作業"><a href="#第一步-前置作業" class="headerlink" title="第一步 : 前置作業"></a>第一步 : 前置作業</h3><p>在開始安裝 Hexo 之前，必須先在電腦安裝以下工具 ：</p>
 <h5 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js :"></a><a class="link"   target="_blank" rel="noopener" href="https://nodejs.org/en/download/package-manager" >Node.js<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> :</h5><p>下載最新 LTS 版本然後 <strong>下一步*n</strong> 直到安裝成功，下載完可在 terminal 裡輸入 <code>npm --version</code> 或 <code>node -v</code> 查看版本，有顯示版本號代表成功</p>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 11.5.1 或更高</span></span><br><span class="line">npm --version</span><br><span class="line"></span><br><span class="line"><span class="comment"># v22.13.1 或更高</span></span><br><span class="line">node -v</span><br></pre></td></tr></table></figure></div>
 
@@ -863,7 +863,7 @@
   </div>
 
 <p>現在前置作業已經做完了，<del><strong>應該不會有人看到這已經想放棄了吧</strong></del>，接下來要進到重頭戲了</p>
-<h4 id="第二步-Hexo-環境建置"><a href="#第二步-Hexo-環境建置" class="headerlink" title="第二步 : Hexo 環境建置"></a>第二步 : Hexo 環境建置</h4><p>首先，先進入你打算安裝 blog 的資料夾，並打開 terminal，接著就是一連串指令</p>
+<h3 id="第二步-Hexo-環境建置"><a href="#第二步-Hexo-環境建置" class="headerlink" title="第二步 : Hexo 環境建置"></a>第二步 : Hexo 環境建置</h3><p>首先，先進入你打算安裝 blog 的資料夾，並打開 terminal，接著就是一連串指令</p>
 
   <div class="note-large black">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
@@ -879,8 +879,8 @@
 <p>一切都完成後可在 terminal 裡輸入 <code>hexo v</code> 查看版本</p>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 檢查 hexo 是否安裝成功</span></span><br><span class="line">hexo v</span><br></pre></td></tr></table></figure></div>
 
-<h4 id="第三步-開始編輯-blog"><a href="#第三步-開始編輯-blog" class="headerlink" title="第三步 : 開始編輯 blog"></a>第三步 : 開始編輯 blog</h4><p>首先先去 <a target="_blank" rel="noopener" href="https://hexo.io/themes/"><strong>Hexo theme</strong></a> 找自己喜歡的主題</p>
-<p>找到了以後就是開始看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/configuration"><strong>Hexo Docs</strong></a> 和 <strong>各個 theme 的 Docs</strong> 調設定，這部分不難，就是有億點耗時間，有幾個指令可以記一下 :</p>
+<h3 id="第三步-開始編輯-blog"><a href="#第三步-開始編輯-blog" class="headerlink" title="第三步 : 開始編輯 blog"></a>第三步 : 開始編輯 blog</h3><p>首先先去 <a target="_blank" rel="noopener" href="https://hexo.io/themes/"><strong>Hexo theme</strong></a> 找自己喜歡的主題</p>
+<p>找到了以後就是開始看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/configuration"><strong>Hexo Docs</strong></a> 和 <strong>各個 theme 的 Docs</strong> 調設定，這部分不難，就是有億點耗時間<br>這裡就用 <a target="_blank" rel="noopener" href="https://github.com/EvanNotFound/hexo-theme-redefine"><strong>Redefine</strong></a> 來做示範，<del>絕對不是我偷懶</del>，其中有幾個指令可以記一下 :</p>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 清除快取</span></span><br><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成靜態網頁</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署網站到雲端</span></span><br><span class="line">hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署網站到本地</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
 
 
@@ -890,7 +890,7 @@
 
     </div>
     <div class="notel-content markdown-body">
-      <p>不同的 theme 操作的步驟會不一樣，所以請看各個 theme 的 Docs 進行操作 很重要 👉👈</p>
+      <p>不同的 theme 操作的指令會不一樣，所以請看各個 theme 的 Docs 進行操作 很重要 👉👈</p>
 
     </div>
   </div>
@@ -906,7 +906,7 @@
     </div>
   </div>
 
-<h4 id="第四步-把網頁部署到-Github-Pages"><a href="#第四步-把網頁部署到-Github-Pages" class="headerlink" title="第四步 : 把網頁部署到 Github Pages"></a>第四步 : 把網頁部署到 Github Pages</h4><p>首先要先到 <strong>_config.yml</strong> 中的最下方的 deploy 輸入你的 Github 帳號和 Repo</p>
+<h3 id="第四步-把網頁部署到-Github-Pages"><a href="#第四步-把網頁部署到-Github-Pages" class="headerlink" title="第四步 : 把網頁部署到 Github Pages"></a>第四步 : 把網頁部署到 Github Pages</h3><p>首先要先到 <strong>_config.yml</strong> 裡最下方的 deploy 輸入你的 Github 帳號和 Repo</p>
 <div class="code-container" data-rel="Yml"><figure class="iseeu highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span>  </span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>  </span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/&lt;your-github-username&gt;/&lt;your-github-username&gt;.github.io</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></div>
 <p>接著再兩串指令輕鬆上傳</p>
 <div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生成靜態網頁</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署網站到雲端</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></div>
@@ -969,7 +969,7 @@
 	<div class="post-toc">
 		<div class="toc-title">On this page</div>
 		<div class="page-title">教你如何架設個人 blog</div>
-		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-Hexo-GitHub-Pages-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA-blog"><span class="nav-text">如何使用 Hexo + GitHub Pages 架設個人 blog</span></a></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-Hexo-GitHub-Pages-%E6%9E%B6%E8%A8%AD%E5%80%8B%E4%BA%BA-blog"><span class="nav-text">如何使用 Hexo + GitHub Pages 架設個人 blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AF-Hexo%EF%BC%9F"><span class="nav-text">什麼是 Hexo？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5-%E5%89%8D%E7%BD%AE%E4%BD%9C%E6%A5%AD"><span class="nav-text">第一步 : 前置作業</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5-Hexo-%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE"><span class="nav-text">第二步 : Hexo 環境建置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5-%E9%96%8B%E5%A7%8B%E7%B7%A8%E8%BC%AF-blog"><span class="nav-text">第三步 : 開始編輯 blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5-%E6%8A%8A%E7%B6%B2%E9%A0%81%E9%83%A8%E7%BD%B2%E5%88%B0-Github-Pages"><span class="nav-text">第四步 : 把網頁部署到 Github Pages</span></a></li></ol>
 
 	</div>
 </div>
